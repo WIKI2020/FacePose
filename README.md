@@ -29,7 +29,7 @@ We will release the ultra-high precision model in future(Including angles and em
     Download the emoticon model (the angle model is already in the code):[https://pan.baidu.com/s/1oxznkRcP5w8lzYMAjj87-w],accesscode:WIKI
 	
 	
-    # run the simple inference script(angel)
+    # run the simple inference script(angle)
     Take a video of face rotation with a computer camera,and put it into video file
     CUDA_VISIBLE_DEVICE=0 python video.py --video_name ./video/your_video_name.mp4
     (tips:You can modify video.py file to infer pictures)
